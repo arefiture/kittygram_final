@@ -172,4 +172,5 @@ jobs:
         format: markdown
         message: |
           Деплой кошек успешно завершен!
+          Коммит выполнил @${{ github.actor }}
 
