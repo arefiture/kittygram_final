@@ -174,4 +174,4 @@ jobs:
           Деплой кошек успешно завершен!
           Коммит выполнил @${{ github.actor }}
           Сообщение коммита: ${{ github.event.commits[0].message }}
-          URL: https://github.com/${{ github.repository }}/commit/${{ github.sha }}
+          URL: https://github.com/${{ github.repository }}/
