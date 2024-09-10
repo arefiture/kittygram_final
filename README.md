@@ -5,6 +5,7 @@
 ## Описание проекта
 
 Kittygram - учебный проект от Яндекс.Практикум.
+
 Данный сервис имеет возможность публикации фотографий котиков и их достижений.
 
 ## Технологии
@@ -23,27 +24,38 @@ sudo systemctl status docker
 ```
 <details>
     <summary>Что делать, если Docker отсутствует</summary>
+    
 1. Скачиваем и устанавилваем curl:
+
     ```bash
     sudo apt update
     sudo apt install curl
     ```
+
 2. С помощью утилиты скачиваем скрипт для установки докера с официального сайта:
+
     ```bash
     curl -fSL https://get.docker.com -o get-docker.sh 
     ```
+
 3. Запускаем сохраненный скрипт:
+
     ```bash
     sudo sh ./get-docker.sh
     ```
+
 4. Дополнительно скачиваем утилу Docker Compose:
+
     ```bash
     sudo apt install docker-compose-plugin 
     ```
+
 5. Проверяем работоспособность Docker:
+
     ```bash
     sudo systemctl status docker
     ```
+
 </details>
 
 Для запуска необходимо создать папку проекта, например `kittygram` и перейти в нее:
