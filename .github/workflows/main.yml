@@ -169,10 +169,4 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        format: markdown
-        message: |
-          Деплой кошек успешно завершен!
-          Коммит выполнил @${{ github.actor }}
-          Сообщение коммита: ${{ github.event.commits[0].message }}
-          URL: https://github.com/${{ github.repository }}/commit/${{ github.sha }}
-
+        message: Деплой кошек успешно выполнен!
